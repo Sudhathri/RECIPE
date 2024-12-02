@@ -1,0 +1,390 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  border-radius: 12px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.read-the-docs {
+  color: #666; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f7; 
+  overflow-x: hidden;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8860D0; 
+  max-width: 1280px;
+  height: 60px;
+  padding: 0 20px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-heading {
+  color: #ebd2e5;
+  font-size: 26px; 
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar-right {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-right li {
+  margin-left: 20px;
+}
+
+.navbar-right li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.navbar-right li a:hover {
+  color: #ffd700;
+  text-shadow: 0 0 10px #ffd700;
+}
+
+.recipe-container {
+  padding: 20px;
+  text-align: center;
+  background-image: url("");
+  background-color: rgba(117, 126, 129, 0);
+  background-attachment: fixed;
+  background-size: cover; 
+  background-position: center;
+  border-radius: 12px;
+}
+
+.recipe-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px; 
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.recipe-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card-actions {
+  margin-top: 15px;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 0 5px;
+  border-radius: 5px; 
+}
+
+.edit-button {
+  background-color: #0056b3; 
+}
+
+.delete-button {
+  background-color: #c82333;
+}
+
+.form-container {
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 12px;
+  background-image: url("https://i.pinimg.com/736x/d1/08/19/d10819698e0f3e8c27da405a8faacb8a.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 40%; 
+  background-position: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.moni {
+  color: hsl(318, 16%, 13%); 
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px; 
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #0069d9; 
+  color: rgb(135, 181, 142);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-favorites-button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.add-to-favorites-button:hover {
+  background-color: #218838;
+}
+.favorites-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 2px solid #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #b284be;
+}
+
+.favorites-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.favorites-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.favorites-section li {
+  padding: 5px 0;
+  border-bottom: 1px solid #30aee0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.favorites-section li:last-child {
+  border-bottom: none;
+}
+
+.favorites-section p {
+  color: #777;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.welcome-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #f9f9f9, #fff);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  gap: 20px; 
+}
+
+
+.text-content {
+  flex: 1;
+}
+
+
+.image-content {
+  flex: 1;
+  text-align: right;
+}
+
+.image-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  color: #ff6f61;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+
+.text-content .quote {
+  font-size: 1.4rem;
+  color: #444;
+  font-style: italic;
+  margin: 30px 0;
+  border-left: 6px solid #ffa500;
+  padding-left: 15px;
+  background: #fff4e5;
+  border-radius: 5px;
+}
+
+.text-content .cta-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #ff6f61;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s ease;
+}
+
+.text-content .cta-button:hover {
+  background: #e65550;
+}
+
+@media (max-width: 768px) {
+  .welcome-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .text-content h1 {
+    font-size: 2rem;
+  }
+
+  .text-content p {
+    font-size: 1rem;
+  }
+
+  .text-content .quote {
+    font-size: 1.2rem;
+  }
+}
+
+.welcome-container {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "sweets": [
+    {
+      "name": "Gulab Jamun",
+      "ingredients": [
+        {
+          "name": "Milk Powder",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Flour",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "2 cups (for syrup)"
+        }
+      ],
+      "instructions": [
+        "Mix milk powder, flour, and water to form a soft dough.",
+        "Shape into small balls and fry in oil until golden brown.",
+        "Make sugar syrup by boiling water and sugar together.",
+        "Soak the fried balls in the syrup and serve warm."
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToiLbR1sOiQvyOkZQX-l11i3V9tHxquE2O6g&s",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Chocolate Cake",
+      "ingredients": [
+        {
+          "name": "Flour",
+          "quantity": "1.5 cups"
+        },
+        {
+          "name": "Cocoa Powder",
+          "quantity": "0.5 cup"
+        },
+        {
+          "name": "Eggs",
+          "quantity": "2 large"
+        }
+      ],
+      "instructions": [
+        "Preheat the oven to 180°C (350°F).",
+        "Mix flour, cocoa powder, sugar, and eggs in a bowl.",
+        "Pour batter into a greased pan and bake for 30 minutes.",
+        "Cool and decorate with frosting."
+      ],
+      "url": "https://static.toiimg.com/photo/53096885.cms"
+    },
+    {
+      "id": "3",
+      "name": "Rasgulla",
+      "ingredients": [
+        {
+          "name": "Milk",
+          "quantity": "1 liter"
+        },
+        {
+          "name": "Lemon Juice",
+          "quantity": "2 tablespoons"
+        },
+        {
+          "name": "Sugar",
+          "quantity": "2 cups"
+        }
+      ],
+      "instructions": [
+        "Boil milk and add lemon juice to curdle it.",
+        "Strain the curds and knead into a smooth dough.",
+        "Shape into small balls and boil in sugar syrup for 15 minutes.",
+        "Cool and serve chilled."
+      ],
+      "url": "https://www.palatesdesire.com/wp-content/uploads/2015/08/Rasgulla@palates_desire-scaled.jpg"
+    }
+  ],
+  "vegetarian": [
+    {
+      "id": "3",
+      "name": "Palak Paneer",
+      "ingredients": [
+        {
+          "name": "Paneer",
+          "quantity": "200 grams, cubed"
+        },
+        {
+          "name": "Spinach",
+          "quantity": "2 cups, boiled and pureed"
+        },
+        {
+          "name": "Onion",
+          "quantity": "1 large, finely chopped"
+        }
+      ],
+      "instructions": [
+        "Heat oil in a pan and sauté onion until golden.",
+        "Add spinach puree and cook for 5 minutes.",
+        "Mix in the paneer cubes and cook for 2 minutes. Serve hot."
+      ],
+      "url": "https://www.seriouseats.com/thmb/lhYY8CqBJoDwxj57KFAiY9pORhI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20220629-PalakPaneer-Amanda-Suarez-hero-a2fdf0f3ff5141dfbf44d3977678c578.JPG"
+    },
+    {
+      "id": "4",
+      "name": "Vegetable Pulao",
+      "ingredients": [
+        {
+          "name": "Rice",
+          "quantity": "2 cups, washed"
+        },
+        {
+          "name": "Carrot",
+          "quantity": "1 large, diced"
+        },
+        {
+          "name": "Green Peas",
+          "quantity": "0.5 cup"
+        }
+      ],
+      "instructions": [
+        "Heat oil in a pot and sauté spices for aroma.",
+        "Add rice, vegetables, and water (3 cups).",
+        "Cook on low heat for 20 minutes until rice is done. Serve with yogurt."
+      ],
+      "url": "https://www.cubesnjuliennes.com/wp-content/uploads/2019/11/Veg-Pulao-2.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Aloo Gobi",
+      "ingredients": [
+        {
+          "name": "Potatoes",
+          "quantity": "2 medium, diced"
+        },
+        {
+          "name": "Cauliflower",
+          "quantity": "1 small, cut into florets"
+        },
+        {
+          "name": "Tomato",
+          "quantity": "1 large, chopped"
+        }
+      ],
+      "instructions": [
+        "Heat oil and sauté spices, potatoes, and cauliflower.",
+        "Add tomatoes and cook until vegetables are tender.",
+        "Serve with chapati or rice."
+      ],
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPeC5t0BcifttBKL0fdriTfsDy1bP3frANnA&s"
+    }
+  ],
+  "non_vegetarian": [
+    {
+      "name": "Chicken biriyani",
+      "ingredients": [
+        {
+          "name": "Chicken",
+          "quantity": "500 grams, cut into cubes"
+        },
+        {
+          "name": "Yogurt",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Tikka Masala",
+          "quantity": "2 tablespoons"
+        }
+      ],
+      "instructions": [
+        "Marinate chicken with yogurt and tikka masala for 4 hours.",
+        "Skewer the chicken and grill until fully cooked.",
+        "Serve with mint chutney and onion rings."
+      ],
+      "url": "https://greatcurryrecipes.net/wp-content/uploads/2024/02/Tikka2-735x980.jpg",
+      "id": "5"
+    }
+  ]
+}
